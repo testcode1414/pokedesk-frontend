@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:8000";
+// const BASE_URL = "http://localhost:8000";
+const BASE_URL="https://pokedesk-bey1.onrender.com"
 
 export const getFeatured = async () => {
   const res = await fetch(`${BASE_URL}/featured`);
